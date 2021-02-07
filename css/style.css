@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding-top: 50px;
-    min-width: 450px; 
+    min-width: 400px; 
 }
 
 /* NAVBAR */
@@ -114,13 +114,88 @@ body {
    .navbar-collapse.collapse.in {  
         display: block!important; 
     }
-}  
+}
+
+/* JUMBOTRON SECTION  */
 
 .jumbotron {
-    height: 400px;
     text-align: center;
     background-image: url('../img/sea.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
    
+.white_text {
+    color: white;
+}
+
+.blue_ocean {
+    color: #006aff;
+}
+
+/* VALUTARE SE FARE CON BOX PER VISIBILITA' O TENERE JUMBO PIU' LUNGO COME L'ORIGINALE MA NON COME LA FOTO  */
+
+#jumbo_paragraph {
+    color: rgb(187, 204, 255);
+    background-color: #006aff;
+    padding: 0.5em;
+    opacity: 0.8; 
+    font-weight: 400;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+.thumbnail {
+    padding: 4px 16px;
+}
+
+#thumb_title {
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.make_relative {
+    position: relative;
+}
+
+#create_acc_btn {
+    font-weight: 500;
+}
+
+.push_top {
+    margin-top: 0.35em;
+}
+
+.push_btm {
+    margin-bottom: 0.35em;
+}
+
+#google_btn {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+#google {
+    position: absolute;
+    width: 1.2em;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+.form-signin a {
+    text-decoration: underline;
+}
+
+/* HEADER BOTTOM SECTION  */
+
+.jumbotron {
+    margin-bottom : 0;
+}
+
+.header_bottom {
+    height: 250px;
+    background-color: rgb(243, 245, 249);
+}
