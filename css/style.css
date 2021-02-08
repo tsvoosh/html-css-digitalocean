@@ -318,9 +318,52 @@ body {
     color: #006aff;
 }
 
+/* SERVER SPEED TEST  */
+
 #speed_test {
     background-color: rgb(0,63,188);
-    height: 400px;
+    padding: 32px 0;
+}
+
+.speed_title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.server {
+    height: 40px;
+    line-height: 40px;
+}
+
+.give_border {
+    border-bottom: 1px solid white;
+}
+
+.p_speed {
+    color: rgb(187, 204, 255);
+    margin: 0;
+}
+
+.test_link {
+    color: rgb(0,213,209);
+}
+
+.test_link:hover {
+    color: rgb(0,213,209);
+    text-decoration: underline;
+}
+
+.test_link:focus {
+    color: lightgreen;
+}
+
+.servers_list {
+    margin-top: 16px;
+}
+
+.servers_space {
+    margin-bottom: 32px;
 }
 
 /* NAVBAR MEDIA QUERY  */
