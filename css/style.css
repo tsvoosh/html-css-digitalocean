@@ -148,7 +148,7 @@ body {
 }
 
 .thumbnail {
-    padding: 4px 16px;
+    padding: 16px;
 }
 
 #thumb_title {
@@ -196,6 +196,28 @@ body {
 }
 
 .header_bottom {
-    height: 250px;
     background-color: rgb(243, 245, 249);
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.header_bottom h6 {
+    font-size: 14px;
+    color: rgb(91, 105, 135);
+}
+
+#stories {
+    color: #006aff;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.logos {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.img_handler {
+    max-width: 100%;
+    min-height: 77px;
 }
