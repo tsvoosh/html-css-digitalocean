@@ -85,41 +85,6 @@ body {
     color: #006aff;
 }
 
-/* NAVBAR MEDIA QUERY  */
-
-/* Credits to stack-overflow for this one because Bootstrap 3 is a pain sometimes */
-
-@media (max-width: 991px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-   .navbar-collapse.collapse.in {  
-        display: block!important; 
-    }
-}
-
 /* JUMBOTRON SECTION  */
 
 .jumbotron {
@@ -290,16 +255,6 @@ body {
     min-height: 220px;
 }
 
-@media (max-width: 767px) {
-    .text_box {
-        min-height: 0px;
-    }
-
-    .xs_margin {
-        margin-bottom: 32px;
-    }
-}
-
 /* DESIGN SECTION  */
 
 #design {
@@ -314,8 +269,6 @@ body {
 .slider_box {
     width: 80%;
     margin: 0 auto;
-    /* height: 500px; */
-    /* padding: 5em; */
 }
 
 .carousel-control.left , .carousel-control.right {
@@ -332,4 +285,89 @@ body {
 
 .carousel-indicators .active {
     background-color: #006aff;
+}
+
+/* FEATURES  */
+
+#features {
+    padding: 32px 0;
+}
+
+.features_box {
+    margin-top: 1.5em;
+}
+
+.features_box h5 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.features_box p {
+    font-weight: 400; 
+    font-size: 16px;
+    color: rgb(91, 105, 135);
+}
+
+.a_style {
+    color: #006aff;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.a_style:hover {
+    color: #006aff;
+}
+
+#speed_test {
+    background-color: rgb(0,63,188);
+    height: 400px;
+}
+
+/* NAVBAR MEDIA QUERY  */
+
+/* Credits to stack-overflow for this one because Bootstrap 3 is a pain sometimes */
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+   .navbar-collapse.collapse.in {  
+        display: block!important; 
+    }
+}
+
+@media (max-width: 767px) {
+    .text_box {
+        min-height: 0px;
+    }
+
+    .xs_display_none {
+        display: none;
+    }
+
+    .xs_margin {
+        margin-bottom: 32px;
+    }
 }
