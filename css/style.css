@@ -343,6 +343,7 @@ body {
 .p_speed {
     color: rgb(187, 204, 255);
     margin: 0;
+    font-size: 0.9em;
 }
 
 .test_link {
