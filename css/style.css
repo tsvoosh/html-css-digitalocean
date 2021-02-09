@@ -337,6 +337,10 @@ body {
     border-bottom: 1px solid white;
 }
 
+.city {
+    padding: 0;
+}
+
 .p_speed {
     color: rgb(187, 204, 255);
     margin: 0;
