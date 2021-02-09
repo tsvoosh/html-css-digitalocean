@@ -197,9 +197,9 @@ body {
     padding: 32px 0;
 }
 
-.deploy_box .row {
+.add_padding {
     padding-top: 64px;
-}
+} 
 
 .make_stronger {
     font-weight: 700;
@@ -251,9 +251,6 @@ body {
     color: rgb(91, 105, 135);
 }
 
-.text_box {
-    min-height: 220px;
-}
 
 /* DESIGN SECTION  */
 
@@ -365,6 +362,176 @@ body {
 
 .servers_space {
     margin-bottom: 32px;
+}
+
+/* SECOND CAROUSEL  */
+
+#teams {
+    background-color: rgb(243, 245, 249);
+    padding: 32px 0;
+}
+
+.teams h2 {
+    margin-bottom: 32px;
+}
+
+.box_handler {
+    height: 380px;
+    background-color: white;
+}
+
+.slider_box_two {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slider_box_two p {
+    font-weight: 400; 
+    font-size: 20px;
+    color: rgb(91, 105, 135);
+}
+
+.box_handler img {
+    margin: 0 auto;
+}
+
+.indicators_two {
+    position: static;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+/* FOOTER  */
+
+.footer_top {
+    background-color: rgb(0,63,188);
+    padding: 32px 0;
+}
+
+#account {
+    color: #006aff;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 16px;
+}
+
+.footer_btm {
+    background-color: rgb(3,28,78);
+    padding: 32px 0;
+}
+
+.footer_btm p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.icon_margin {
+    margin-right: 10px;
+}
+
+.footer_btm p, .icon_container .fab {
+    color: rgb(125, 136, 159);
+}
+
+#darker_color {
+    margin: 0;
+    color: rgb(88, 103, 133);
+}
+
+.icon_container {
+    margin-top: 15px;
+}
+
+.icon_container .fab {
+    cursor: pointer;
+}
+
+.foot_ul {
+    list-style-type: none;
+    color: rgb(125, 136, 159);
+    margin-top: 24px;
+}
+
+.foot_ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.li_margin {
+    margin-top: 8px;
+}
+
+.primary {
+    font-weight: 700;
+    color: white;
+}
+
+.baloon_wrap {
+    line-height: 70px;
+    height: 70px;
+    padding: 0 20px;
+}
+
+.help_box {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 2;
+}
+
+.baloon {
+    padding: 20px;
+    position: relative;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px;
+}
+
+.move_triangle {
+    position: absolute;
+    right: -12px;
+    font-size: 5em;
+    color: white;
+}
+
+
+
+.float {
+    float: left;
+}
+
+.sammy_box {
+    display: inline-block;
+    position:relative;
+    width: 70px;
+    height: 70px;
+}
+
+#notification {
+    display: inline-block;
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    top: -15px;
+    right: -15px;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.sammy_box img {
+    display: inline-block;
+    object-fit: contain;
+    max-width: 100%;
+    height: 70px;
+    background-color: rgb(0,106,255);
+    border-radius: 10px;
 }
 
 /* NAVBAR MEDIA QUERY  */
